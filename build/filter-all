@@ -1,0 +1,13 @@
+- .DS_Store
+- /.git
+- /.gitignore
+- /build
+- /debug.log
+- /README.md
+- /tests
+- /node_modules
+- /package.json
+- /composer.json
+- /composer.lock
+- /phpunit.xml
+- /bin
