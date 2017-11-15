@@ -4,7 +4,7 @@ if (! $publish || ! isset( $svn_repo ) || ! isset( $git_repo )) {
     return;
 }
 
-echo 'Publish to WP.org? (Y/n) ';
+echo "Publish to WP.org? $svn_repo (Y/n) ";
 if ('Y' == strtoupper( trim( fgets( STDIN ) ) )) {
     system( 'rm -fR svn' ); // Cleanup before checkout to prevent errors
     system( "svn co -q $svn_repo svn" );
@@ -25,7 +25,7 @@ if ('Y' == strtoupper( trim( fgets( STDIN ) ) )) {
     system( 'rm -fR svn' ); // All done
 }
 
-echo 'Publish to Github? (Y/n) ';
+echo "Publish to Github? $git_repo (Y/n) ";
 if ('Y' == strtoupper( trim( fgets( STDIN ) ) )) {
     system( 'rm -fR github' ); // Cleanup before cloning to prevent errors
     system( "git clone $git_repo github1" );
