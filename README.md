@@ -1,12 +1,12 @@
 # ACF Code Field 
 
-Contributors: ptasker  
-Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=ZFP4RL9XM2ZWW  
-Tags: Advanced Custom Fields, ACF, Codemirror  
-Requires at least: 3.0.1  
+Contributors: ptasker
+Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=ZFP4RL9XM2ZWW
+Tags: Advanced Custom Fields, ACF, Codemirror, code, code editor, code coloring, code highlighting, WordPress IDE, syntax highlighter
+Requires at least: 3.0.1
 Tested up to: 4.9
-Stable tag: 1.6.4
-License: GPLv2 or later  
+Stable tag: 1.7
+License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html  
 
 Code field for Advanced Custom Fields (ACF)
@@ -44,6 +44,10 @@ It doesn't. Though Codemirror has several settings to escape data, the plugin do
 2. Editor screenshot with the Monokai theme enabled.
 
 ## Changelog 
+
+### 1.7
+ * Using WP Core's built-in CodeMirror JavaScript and CSS if > WP 4.9
+
 
 ### 1.6.4
  * Updating tested up to 4.9
